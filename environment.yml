@@ -1,11 +1,9 @@
-name: hw1_env
+name: hw2_env
 dependencies:
-    - python=3.8
+    - python 3.7
+    - pytorch
+    - torchvision
     - pip
     - pip:
-        - pandas
         - numpy
-        - seaborn
-        - matplotlib
-        - sklearn
-        - xgboost
+        - pandas
